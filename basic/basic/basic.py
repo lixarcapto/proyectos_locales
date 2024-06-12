@@ -17,6 +17,19 @@ from .fn.part_from_percent import*
 from .fn.percent_from_part import*
 from .fn.total_from_part import*
 from .fn.valid_string import*
+from .fn.randint_array import*
+from .fn.set_in_range import*
+from .fn.sum_in_range import*
+from .fn.dict_to_array import*
+from .fn.valid_index import*
+from .fn.sum_array import*
+from .fn.percent_to_index import*
+from .fn.fuse import*
+from .fn.is_error import*
+from .fn.random_without_repeat import*
+from .fn.random_ip import*
+from .fn.missing_numbers import*
+
 # modules
 from .mod.iterator.Iterator import Iterator
 # constants
@@ -128,3 +141,53 @@ class Basic:
              min_size = -1,
              is_strict = False):
         valid_string(data, min_size)
+
+    def randint_array(size: int, 
+        range_arr: list) -> list:
+        return randint_array(int, range_arr)
+    
+    # return number
+    def set_inrange(value: int, range_arr: list):
+        return set_inrange(value, range_arr)
+    
+    # return number
+    def sum_in_range(value_a, value_b, 
+                    range_arr):
+        return sum_in_range(value_a, 
+            value_b, range_arr)
+    
+    def dict_to_array(dict) -> list:
+        return dict_to_array(dict)
+    
+    # not return
+    def valid_index(index: int, leng: int):
+        return valid_index(index, leng)
+    
+    # return element type
+    def sum_array(array):
+        return sum_array(array)
+    
+    def percent_to_index(percent, limit):
+        return percent_to_index(percent, 
+                    limit)
+    
+    def fuse(array_a, array_b) -> list:
+        return fuse(array_a, array_b)
+    
+    def is_error(value):
+        return is_error(value)
+    
+    # return int
+    def random_without_repeat(range_arr, 
+        repeated_int_ar,
+        is_exclusive = False):
+        return random_without_repeat(
+            range_arr, 
+            repeated_int_ar,
+            is_exclusive)
+    
+    def random_ip():
+        return random_ip()
+    
+    def missing_numbers(number_list):
+        return missing_numbers(number_list)
