@@ -1,5 +1,5 @@
 
-from basic.basic import Basic
+from basic.Basic import Basic
 
 def iterator_test():
     print("iterator_test")

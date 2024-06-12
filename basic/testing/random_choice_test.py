@@ -1,6 +1,6 @@
 
 
-from basic.basic import*
+from basic.Basic import Basic
 
 def random_choice_test():
     print("random_choice_test")

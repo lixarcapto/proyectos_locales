@@ -1,5 +1,5 @@
 
-from basic.basic import*
+from basic.Basic import Basic
 
 def random_bool_test():
     print("random_bool")

@@ -1,6 +1,6 @@
 
 
-from basic.basic import Basic
+from basic.Basic import Basic
 
 def random_probability_test():
     print("random_probability_test")

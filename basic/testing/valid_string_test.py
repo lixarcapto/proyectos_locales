@@ -1,6 +1,6 @@
 
 
-from basic.basic import Basic
+from basic.Basic import Basic
 
 def valid_string_test():
     print("\nvalid_string_test\n")

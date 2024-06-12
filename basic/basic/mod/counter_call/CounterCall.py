@@ -1,5 +1,6 @@
 
 
+from ...fn.percent_from_part import*
 
 class CounterCall:
 
@@ -16,6 +17,15 @@ class CounterCall:
         self.__counter = 0
         self.__limit = 0
         self.__set_limit(limit)
+
+    def get_percent(self):
+        percent = percent_from_part(
+            self.__counter,
+            self.__limit
+        )
+        percent = round(percent)
+        r = str(percent) + "%"
+        return r
 
     """
         Funcion que obtiene el numero contador.

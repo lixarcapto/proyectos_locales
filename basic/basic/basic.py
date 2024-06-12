@@ -1,45 +1,6 @@
 
 
-# funtions
-from .fn.random_bool import*
-from .fn.random_choice import*
-from .fn.random_without import*
-from .fn.random_probability import*
-from .fn.repeat import*
-from .fn.map_upg import*
-from .fn.init_array import*
-from .fn.calculate_mid import*
-from .fn.deep import*
-from .fn.key_by_index import*
-from .fn.get_keys import*
-from .fn.in_range import*
-from .fn.part_from_percent import*
-from .fn.percent_from_part import*
-from .fn.total_from_part import*
-from .fn.valid_string import*
-from .fn.randint_array import*
-from .fn.set_in_range import*
-from .fn.sum_in_range import*
-from .fn.dict_to_array import*
-from .fn.valid_index import*
-from .fn.sum_array import*
-from .fn.percent_to_index import*
-from .fn.fuse import*
-from .fn.is_error import*
-from .fn.random_without_repeat import*
-from .fn.random_ip import*
-from .fn.missing_numbers import*
-
-# modules
-from .mod.iterator.Iterator import Iterator
-from .mod.switch.Switch import Switch
-from .mod.counter_call.CounterCall import CounterCall
-
-# constants
-from .const.abc_tuple import*
-from .const.number_tuple import*
-from .const.animal_array import*
-from .const.vegetable_dict import*
+from .in_deps import*
 
 class Basic:
 
@@ -200,3 +161,69 @@ class Basic:
     
     def counter_call(limit: int):
         return CounterCall(limit)
+    
+    def probability():
+        return Probability()
+    
+    # return int
+    def compare_strings(strig_primal, 
+            string_to_compare):
+        return compare_strings(strig_primal, 
+            string_to_compare)
+    
+    def related_dict(similar_percent: int = 70):
+        return RelatedDict(similar_percent)
+    
+    # return char
+    def charat(string:str, index:int) -> str:
+        return charat(string, index)
+    
+    def cut_from(string: str, caracter: str)\
+    -> str:
+        return cut_from(string, caracter)
+    
+    def cut_until(string: str, caracter: str)\
+    -> str:
+        return cut_until(string, caracter)
+    
+    # return string_array
+    def divide_string(index:int, string:str)\
+        -> list:
+        return divide_string(index, string)
+    
+    # return string
+    def next_word(text: str, searched_string: str):
+        return next_word(text, 
+            searched_string)
+    
+    def get_between(base:str, start:str,
+        end:str) -> str:
+        return get_between(base, start, end)
+    
+    def insert_string(index:int, base_string:str, 
+        new_string:str) -> str:
+        return insert_string(index,
+            base_string, new_string)
+    
+    def normalize(text: str) -> str:
+        return normalize(text)
+    
+    def split_by(string, dividers_arr: list):
+        return split_by(string, dividers_arr)
+    
+    def simil_search(array:list, element:str, 
+        required_percent:int) -> str:
+        return simil_search(array, element, 
+                required_percent)
+    
+    def get_description(string,
+        separator_string, range_string_array):
+        return get_description(
+            string,
+            separator_string, 
+            range_string_array
+            )
+    
+    def array_to_dict(array, data_type = None):
+        return array_to_dict(array, 
+            data_type)

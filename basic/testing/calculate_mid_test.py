@@ -1,5 +1,5 @@
 
-from basic.basic import Basic
+from basic.Basic import Basic
 
 def calculate_mid_test():
     print("calculate_mid_test")

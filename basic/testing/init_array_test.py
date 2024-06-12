@@ -1,5 +1,5 @@
 
-from basic.basic import Basic
+from basic.Basic import Basic
 
 def init_array_test():
     print("init_array_test")

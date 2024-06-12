@@ -1,6 +1,6 @@
 
 
-from basic.basic import Basic
+from basic.Basic import Basic
 
 def get_keys_test():
     print("get_keys_test")

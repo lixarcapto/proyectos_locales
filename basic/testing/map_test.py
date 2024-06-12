@@ -1,6 +1,6 @@
 
 
-from basic.basic import Basic
+from basic.Basic import Basic
 
 def map_test():
     print("map_test")
