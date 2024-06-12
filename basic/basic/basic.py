@@ -32,6 +32,9 @@ from .fn.missing_numbers import*
 
 # modules
 from .mod.iterator.Iterator import Iterator
+from .mod.switch.Switch import Switch
+from .mod.counter_call.CounterCall import CounterCall
+
 # constants
 from .const.abc_tuple import*
 from .const.number_tuple import*
@@ -191,3 +194,9 @@ class Basic:
     
     def missing_numbers(number_list):
         return missing_numbers(number_list)
+    
+    def switch():
+        return Switch()
+    
+    def counter_call(limit: int):
+        return CounterCall(limit)
