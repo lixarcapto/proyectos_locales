@@ -54,7 +54,12 @@ class Basic:
     def init_array(range, value = None):
         return init_array(range, value)
     
-    def calculate_mid(array):
+    """
+    Function that calculates the 
+    average of the numbers in 
+    the sent array.
+    """
+    def calculate_mid(array:list)->float:
         return calculate_mid(array)
     
     def deep(array) -> int:
@@ -224,6 +229,19 @@ class Basic:
             range_string_array
             )
     
-    def array_to_dict(array, data_type = None):
+    """
+    Function that converts the elements of 
+    an array into the keys of a dictionary; 
+    with the data sent as an element.
+    EXAMPLE:
+        array = ['a', 'b', 'c', 'd', 'e']
+        result:list = Basic.array_to_dict(array)
+        print(result)
+    OUTPUT:
+        {'a': None, 'b': None, 'c': None, 
+        'd': None, 'e': None}
+    """
+    def array_to_dict(array:list, 
+    data_type = None)->dict:
         return array_to_dict(array, 
             data_type)

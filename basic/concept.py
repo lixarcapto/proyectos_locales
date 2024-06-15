@@ -8,12 +8,10 @@ def main():
     r = ""
     #---------------------------------------
 
-    tx = "ella corrio tres veces"
-    count_is_ready = Basic.counter_call(30)
-    while(not count_is_ready.is_end()):
-        print(count_is_ready.get_percent())
-
-
+    array = ['a', 'b', 'c', 'd', 'e']
+    r:list = Basic.array_to_dict(array)
+    print(r)
+    
     #----------------------------------------
     print(r)
 
