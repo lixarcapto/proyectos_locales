@@ -245,3 +245,36 @@ class Basic:
     data_type = None)->dict:
         return array_to_dict(array, 
             data_type)
+    
+    """
+    Function that returns an element of 
+    the array if the sent function returns 
+    true. If the element does not exist, 
+    it returns a value of none.
+    EXAMPLES: 
+    """
+    def seek(function, array:list) ->list:
+        return seek(function, array)
+    
+    """
+    Function that applies the strip function 
+    to all strings in a string array.
+    """
+    def strip_array(array:list[str])\
+        ->list[str]:
+        return strip_array(array)
+    
+    """
+    function that replaces an element of the 
+    sent array with the new element, looking 
+    for an element that returns true in the 
+    sent function.
+    """
+    def update(function, array:list, element)\
+        ->list:
+        return update(function, array, element)
+    
+    def whats_ranges(ranges_named:dict, 
+            number:int)->list[str]:
+        return whats_ranges(ranges_named,
+                number)

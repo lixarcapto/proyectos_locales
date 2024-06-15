@@ -10,6 +10,7 @@ from testing.init_array_test import*
 from testing.calculate_mid_test import*
 from testing.get_keys_test import*
 from testing.valid_string_test import*
+from testing.charat_test import*
 
 def main():
     random_bool_test()
@@ -21,5 +22,6 @@ def main():
     calculate_mid_test()
     get_keys_test()
     valid_string_test()
+    charat_test()
     
 main()

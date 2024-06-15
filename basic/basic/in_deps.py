@@ -42,6 +42,10 @@ from .fn.split_by import*
 from .fn.simil_search import*
 from .fn.get_description import*
 from .fn.array_to_dict import*
+from .fn.seek import*
+from .fn.strip_array import*
+from .fn.update import*
+from .fn.whats_ranges import*
 
 # modules
 from .mod.iterator.Iterator import Iterator
