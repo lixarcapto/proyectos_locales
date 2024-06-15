@@ -1,1 +1,9 @@
 basic/testing/proyectos_privados.code-workspace
+basic/concept.py
+plp/load_txt.py
+plp/main.py
+plp/plp_dict.py
+plp/test.txt
+plp/test
+plp/__pycache__/load_txt.cpython-311.pyc
+plp/__pycache__/plp_dict.cpython-311.pyc
