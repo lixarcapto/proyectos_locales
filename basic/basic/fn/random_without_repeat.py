@@ -9,16 +9,20 @@ import random
     si es exclusivo o no.
 """
 # return int
-def random_without_repeat(range, repeated_int_ar,
+def random_without_repeat(range_arr, 
+        repeated_int_ar,
         is_exclusive = False):
     result = 0
-    limit = 10000
+    limit = 100_000
     n = 0
     if is_exclusive:
-        range[0] += 1
-        range[1] -= 1
+        range_arr[0] += 1
+        range_arr[1] -= 1
     while(True):
-        result = random.randint(range[0], range[1])
+        result = random.randint(
+            range_arr[0], 
+            range_arr[1]
+        )
         if(not result in repeated_int_ar):
             return result
         if n == limit:

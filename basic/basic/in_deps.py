@@ -46,6 +46,7 @@ from .fn.seek import*
 from .fn.strip_array import*
 from .fn.update import*
 from .fn.whats_ranges import*
+from .fn.count_keys import*
 
 # modules
 from .mod.iterator.Iterator import Iterator

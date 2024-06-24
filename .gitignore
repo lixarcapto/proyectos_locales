@@ -5,6 +5,13 @@ plp/main.py
 plp/plp_dict.py
 plp/test.txt
 test/
+cron_limit/
+dump/
+http_test/
+lab/
+mathcal/
+plp/
+nif_reader/
 plp/__pycache__/load_txt.cpython-311.pyc
 plp/__pycache__/plp_dict.cpython-311.pyc
 pruebas-workspace.code-workspace

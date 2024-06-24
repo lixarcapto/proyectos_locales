@@ -109,7 +109,7 @@ class Basic:
     def valid_string(data: str, 
              min_size = -1,
              is_strict = False):
-        valid_string(data, min_size)
+        valid_string(data, min_size, is_strict)
 
     def randint_array(size: int, 
         range_arr: list) -> list:
@@ -278,3 +278,7 @@ class Basic:
             number:int)->list[str]:
         return whats_ranges(ranges_named,
                 number)
+    
+    def count_keys(keys_array:list[str])\
+        ->dict[int]:
+        return count_keys(keys_array)
