@@ -8,7 +8,11 @@ def main():
     result = ""
     #---------------------------------------
 
-    result = Pac.read_xlsx_nested("file")
+    data = {
+        "a":[1, 2, 3],
+        "b":[1, 2, 3, 4, 5]
+    }
+    result = Pac.create_excel_dict(data, "file_excel")
 
 
     #----------------------------------------

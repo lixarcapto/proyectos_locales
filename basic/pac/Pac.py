@@ -9,6 +9,9 @@ from .fn.delete_txt import*
 from .fn.read_photoimage import*
 from .fn.read_excel_dict import*
 from .fn.read_xlsx_nested import*
+from .fn.read_docx_full import*
+from .fn.create_docx import*
+from .fn.create_excel_dict import*
 
 class Pac:
 
@@ -46,6 +49,17 @@ class Pac:
     def read_xlsx_nested(filename:str)\
             ->dict[dict]:
         return read_xlsx_nested(filename)
+    
+    def read_docx_full(ruta_archivo:str)->str:
+        return read_docx_full(ruta_archivo)
+    
+    def create_docx(route:str, text:str)->None:
+        return create_docx(route, text)
+    
+    def create_excel_dict(data:dict[list], 
+        filename:str)->None:
+        return create_excel_dict(data, 
+                filename)
     
 
 
