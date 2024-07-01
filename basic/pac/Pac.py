@@ -39,8 +39,10 @@ class Pac:
         delete_txt(filename)
 
     # return PhotoImage
-    def read_photoimage(ruta_imagen:str):
-        return read_photoimage(ruta_imagen)
+    def read_photoimage(ruta_imagen:str, 
+             range_size = None):
+        return read_photoimage(ruta_imagen,
+                range_size)
     
     def read_excel_dict(filename:str)\
             ->dict[list]:

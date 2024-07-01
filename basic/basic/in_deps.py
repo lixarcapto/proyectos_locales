@@ -47,6 +47,9 @@ from .fn.strip_array import*
 from .fn.update import*
 from .fn.whats_ranges import*
 from .fn.count_keys import*
+from .fn.splitip import*
+from .fn.repeat_in_thread import*
+from .fn.route_in_nested_dict import*
 
 # modules
 from .mod.iterator.Iterator import Iterator
@@ -57,6 +60,11 @@ from .mod.probability.Probability \
     import Probability
 from .mod.related_dict.RelatedDict \
     import RelatedDict
+from .mod.layout_image.LayoutImage \
+    import LayoutImage
+from .mod.motion_image.MotionImage \
+    import MotionImage
+from .mod.crono.Crono import Crono
 
 # constants
 from .const.abc_tuple import*

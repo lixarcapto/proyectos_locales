@@ -13,17 +13,12 @@ def random_choice(array:list):
         return random.choice(array)
     raise Exception("unsupported tipe array")
 
-def dothis():
-    a = 0
-    return a
-
-
 def main():
     print("init")
     r = ""
     #---------------------------------------
 
-    print(dothis.__name__)
+    
     
     #----------------------------------------
     print(r)

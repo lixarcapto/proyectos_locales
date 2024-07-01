@@ -1,6 +1,8 @@
 
 
 from .in_deps import*
+import os
+import random
 
 class Basic:
 
@@ -282,3 +284,59 @@ class Basic:
     def count_keys(keys_array:list[str])\
         ->dict[int]:
         return count_keys(keys_array)
+    
+    def layout_image(name_image_arr:\
+            list[str] = []):
+        return LayoutImage(name_image_arr)
+    
+    def motion_image(self, name = ""):
+        return MotionImage(name)
+    
+    def crono_start():
+        Crono.start()
+
+    def crono_stop():
+        return Crono.stop()
+    
+    def splitip(text:str, divider:str)\
+            ->list[str]:
+        return splitip(text, divider)
+    
+    def repeat_in_thread(interval:int, 
+        action, limit:int = -1)->None:
+        return repeat_in_thread(interval,
+            action, limit)
+    
+    def route_in_nested_dict(seek_string:str,
+        dict:dict[dict]) ->list[str]:
+        return route_in_nested_dict(
+            seek_string, dict)
+    
+    def random_point(range_ar):
+        return [
+            Basic.randrange(range_ar),
+            Basic.randrange(range_ar)
+        ]
+
+    def random_point_ar(quantity, range_ar):
+        point_array = []
+        point = None
+        for i in range(quantity):
+            point = Basic.random_point(
+                range_ar)
+            point_array.append(point)
+        return point_array
+
+    def enclose(symbol, text):
+        return symbol + text + symbol
+    
+    def randindex(array):
+        return random.randint(0,
+            len(array) -1)
+
+    def randrange(range_arr):
+        return random.randint(range_arr[0], 
+                range_arr[1])
+    
+    def clean_console():
+        os.system ("cls")
